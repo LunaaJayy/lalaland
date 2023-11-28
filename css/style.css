@@ -1,0 +1,35 @@
+body {
+    background-color: #3A1C9C;
+    font-family: 'Geneva', sans-serif;
+    color: white
+}
+
+h1 {
+    font-family: 'Lucida Bright';
+    margin: 0em;
+    padding: 1em;
+    background-color: #170063;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #170063;
+    justify-content: space-around;
+    padding: 1.5em;
+    margin: 0em;
+    border: 0.07em solid #100045
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    max-width: 100%; 
+    height: auto;
+}

@@ -5,9 +5,10 @@ body {
 }
 
 h1 {
-    font-family: 'Lucida Bright';
+    font-family: 'Lucida Bright', serif;
+    font-size: 3em;
     margin: 0em;
-    padding: 1em;
+    padding: 0.3em;
     background-color: #170063;
     display: flex;
     justify-content: center;

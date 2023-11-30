@@ -2,7 +2,8 @@
 body {
     background-color: #3A1C9C;
     font-family: 'Geneva', sans-serif;
-    color: white
+    color: white;
+    margin: 0px;
 }
 
 h1 {
@@ -34,7 +35,7 @@ nav a {
 
 /* homepage */
 .banner {
-    max-width: 100%; 
+    width: 100vw;
     height: auto;
 }
 

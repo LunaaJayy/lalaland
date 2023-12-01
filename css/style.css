@@ -48,24 +48,24 @@ footer {
 
 /* HOMEPAGE */
 /* images */
-.banner {
+.f-banner {
     width: 100vw;
     height: auto;
 }
 
-.together {
-    height: 50vh;
+.f-together {
+    width: 40vw;
 }
 
-.mia-alone {
+.f-mia-alone {
     height: 30em;
 }
 
-.seb-alone {
+.f-seb-alone {
     height: 30em;
 }
 
-.light {
+.f-light {
     height: 30em;
 }
 
@@ -86,9 +86,7 @@ h2 {
    font-weight: bold; 
 }
 
-.home {
+section[class^=home] {
     display: flex;
     margin-top: 0em;
 }
-
-

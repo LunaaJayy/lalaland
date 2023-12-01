@@ -34,7 +34,8 @@ nav a, p a {
 }
 
 main :not(main > p) {
-    margin: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 footer {
@@ -42,6 +43,7 @@ footer {
     justify-content: center;
     background: #170063;
     padding: 0.7em;
+    margin-top: 2em;
 }
 
 /* HOMEPAGE */
@@ -80,8 +82,13 @@ main > p {
     margin-bottom: 3em;
 }
 
+h2 {
+   font-weight: bold; 
+}
+
 .home {
     display: flex;
+    margin-top: 0em;
 }
 
 

@@ -55,6 +55,9 @@ footer {
 
 .f-together {
     width: 40vw;
+    background-color: #170063;
+    padding: 1em;
+    border-radius: 1.5em;
 }
 
 .f-mia-alone {
@@ -74,7 +77,7 @@ footer {
 main > p {
     color: #261268;
     font-weight: 500;
-    background-color: #F8F8FF;
+    background-color: #F8F4FF;
     padding: 1em;
     border-radius: 1em;
     margin-left: 1em;
@@ -89,4 +92,8 @@ h2 {
 section[class^=home] {
     display: flex;
     margin-top: 0em;
+}
+
+.home-film {
+    
 }

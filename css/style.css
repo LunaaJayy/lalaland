@@ -1,4 +1,4 @@
-/* general */
+/* GENERAL */
 body {
     background-color: #3A1C9C;
     font-family: 'Geneva', sans-serif;
@@ -24,13 +24,17 @@ nav ul {
     justify-content: space-around;
     padding: 1.5em;
     margin: 0em;
-    border: 0.07em solid #100045
+    border: 0.07em solid #100045;
 }
 
 nav a, p a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+main :not(main > p) {
+    margin: 1em;
 }
 
 footer {
@@ -40,14 +44,15 @@ footer {
     padding: 0.7em;
 }
 
-/* homepage */
+/* HOMEPAGE */
+/* images */
 .banner {
     width: 100vw;
     height: auto;
 }
 
 .together {
-    height: 25em;
+    height: 50vh;
 }
 
 .mia-alone {
@@ -62,12 +67,21 @@ footer {
     height: 30em;
 }
 
-section {
-    display: flex;
+/* text */
+
+main > p {
+    color: #261268;
+    font-weight: 500;
+    background-color: #F8F8FF;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 3em;
 }
 
-main {
-    margin: 1em;
+.home {
+    display: flex;
 }
 
 

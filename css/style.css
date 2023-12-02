@@ -61,15 +61,24 @@ footer {
 }
 
 .f-mia-alone {
-    height: 30em;
+    width: 30vw;
+    background-color: #170063;
+    padding: 1em;
+    border-radius: 1.5em;
 }
 
 .f-seb-alone {
-    height: 30em;
+    width: 30vw;
+    background-color: #170063;
+    padding: 1em;
+    border-radius: 1.5em;
 }
 
 .f-light {
-    height: 30em;
+    width: 40vw;
+    background-color: #170063;
+    padding: 1em;
+    border-radius: 1.5em;
 }
 
 /* text */
@@ -87,6 +96,11 @@ main > p {
 
 h2 {
    font-weight: bold; 
+   margin-top: 3em;
+}
+
+h3 {
+    margin-top: 3em;
 }
 
 section[class^=home] {
@@ -94,6 +108,14 @@ section[class^=home] {
     margin-top: 0em;
 }
 
-.home-film {
-    
+h2:nth-of-type(2) {
+    text-align: center;
+}
+
+.home-mia, .home-symbolism {
+    flex-direction: row-reverse;
+}
+
+h3:nth-of-type(2), .home-seb p {
+    margin-left: 20vw;
 }

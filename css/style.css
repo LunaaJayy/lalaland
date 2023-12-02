@@ -33,7 +33,7 @@ nav a, p a {
     font-weight: bold;
 }
 
-main :not(main > p) {
+main :not(.white-thing) {
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -83,7 +83,7 @@ footer {
 
 /* text */
 
-main > p {
+.white-thing {
     color: #261268;
     font-weight: 500;
     background-color: #F8F4FF;

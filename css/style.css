@@ -4,6 +4,7 @@ body {
     font-family: 'Geneva', sans-serif;
     color: white;
     margin: 0px;
+    font-size: 1.2em;
 }
 
 h1 {
@@ -124,12 +125,26 @@ section[class^=home] {
     text-align: center;
 }
 
-.home-mia, .home-symbolism {
-    flex-direction: row-reverse;
+.homepage h3:nth-of-type(2), .homepage h2:nth-of-type(1) {
+    text-align: right;
+    margin-right: 2em;
 }
 
-h3:nth-of-type(2), .home-seb p {
-    margin-left: 20vw;
+.homepage h3:nth-of-type(1) {
+    margin-left: 2em;
+}
+
+.home-film, .home-seb {
+    justify-content: flex-end;
+}
+
+.home-mia, .home-symbolism {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+section[class^=home] p {
+    width: 40vw;
 }
 
 /* SYMBOLISM */
@@ -156,5 +171,10 @@ div {
     display:flex;
     justify-content: flex-start;
 
+}
+
+.symbolismpage > p:nth-of-type(1) {
+    width: 50vw;
+    
 }
 

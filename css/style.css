@@ -38,6 +38,15 @@ main :not(.white-thing) {
     margin-right: 1em;
 }
 
+h2 {
+    font-weight: bold; 
+    margin-top: 3em;
+ }
+ 
+ h3 {
+     margin-top: 3em;
+ }
+
 footer {
     display: flex;
     justify-content: center;
@@ -83,8 +92,6 @@ footer {
 
 /* text */
 
-
-
 .white-thing {
     color: #261268;
     font-weight: 500;
@@ -96,21 +103,12 @@ footer {
     margin-bottom: 3em;
 }
 
-h2 {
-   font-weight: bold; 
-   margin-top: 3em;
-}
-
-h3 {
-    margin-top: 3em;
-}
-
 section[class^=home] {
     display: flex;
     margin-top: 0em;
 }
 
-h2:nth-of-type(2) {
+.homepage h2:nth-of-type(2) {
     text-align: center;
 }
 
@@ -120,4 +118,29 @@ h2:nth-of-type(2) {
 
 h3:nth-of-type(2), .home-seb p {
     margin-left: 20vw;
+}
+
+/* SYMBOLISM */
+/* images */
+
+main img:not(.saxo-gif) {
+    background-color: #170063;
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
+.symb-shots img {
+    height: 15vw;
+    display: flex;
+}
+
+.saxo-gif {
+    height: 7em;
+}
+
+/* text */
+
+div {
+    display:flex;
+    justify-content: space-between;
 }

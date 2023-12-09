@@ -53,12 +53,8 @@ main :not(.white-thing) {
 
 h2 {
     font-weight: bold; 
-    margin-top: 3em;
  }
  
- h3 {
-     margin-top: 3em;
- }
 
 footer {
     display: flex;
@@ -66,6 +62,10 @@ footer {
     background: #170063;
     padding: 0.7em;
     margin-top: 2em;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* HOMEPAGE */
@@ -76,28 +76,28 @@ footer {
 }
 
 .f-together {
-    width: 40vw;
+    width: 30vw;
     background-color: #170063;
     padding: 1em;
     border-radius: 1.5em;
 }
 
 .f-mia-alone {
-    width: 30vw;
+    width: 20vw;
     background-color: #170063;
     padding: 1em;
     border-radius: 1.5em;
 }
 
 .f-seb-alone {
-    width: 30vw;
+    width: 20vw;
     background-color: #170063;
     padding: 1em;
     border-radius: 1.5em;
 }
 
 .f-light {
-    width: 40vw;
+    width: 30vw;
     background-color: #170063;
     padding: 1em;
     border-radius: 1.5em;
@@ -117,24 +117,16 @@ footer {
 }
 
 section[class^=home] {
-    display: flex;
     margin-top: 0em;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.homepage h2:nth-of-type(2) {
-    text-align: center;
+section[class^=home] h2, section[class^=home] h3{
+    width: 100vw;
 }
 
-.homepage h3:nth-of-type(2), .homepage h2:nth-of-type(1) {
-    text-align: right;
-    margin-right: 2em;
-}
-
-.homepage h3:nth-of-type(1) {
-    margin-left: 2em;
-}
-
-.home-film, .home-seb {
+.home-film, .home-seb{
     justify-content: flex-end;
 }
 
@@ -143,6 +135,15 @@ section[class^=home] {
     justify-content: flex-end;
 }
 
+.home-film h2, .home-seb h3{
+    text-align: right;
+    margin-right: 2em;
+}
+
+.home-mia h3, .home-symbolism h2 {
+    margin-left: 2em;
+}
+    
 section[class^=home] p {
     width: 40vw;
 }
@@ -156,9 +157,13 @@ main img:not(.saxo-gif) {
     border-radius: 1.5em;
 }
 
-.symb-shots img {
-    height: 15vw;
+.symb-shots ul {
     display: flex;
+    list-style: none;
+}
+
+.symb-shots img{
+    height: 15vw;
 }
 
 .saxo-gif {
@@ -167,9 +172,9 @@ main img:not(.saxo-gif) {
 
 /* text */
 
-div {
+.symb-jazz {
     display:flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
 
 }
 

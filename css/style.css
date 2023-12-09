@@ -46,7 +46,7 @@ nav a, p a {
     font-weight: bold;
 }
 
-main :not(.white-thing) {
+main :not(.white-thing){
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -162,8 +162,13 @@ main img:not(.saxo-gif) {
     list-style: none;
 }
 
+.symb-shots li, .symb-shots ul {
+    margin: 0em;
+    padding: 0em;
+}
+
 .symb-shots img{
-    height: 15vw;
+    height: 13vw;
 }
 
 .saxo-gif {
@@ -173,13 +178,19 @@ main img:not(.saxo-gif) {
 /* text */
 
 .symb-jazz {
+    margin-top: 0.5em;
     display:flex;
     flex-wrap: wrap;
-
 }
 
-.symbolismpage > p:nth-of-type(1) {
+.symb-jazz h2 {
+    margin-top: 2.5em;
+}
+
+.symb-jazz img{
+    margin-right: 100vw;
+}
+
+.symb-jazz p {
     width: 50vw;
-    
 }
-

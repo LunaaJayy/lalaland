@@ -172,7 +172,11 @@ main img:not(.saxo-gif) {
 }
 
 .saxo-gif {
-    height: 7em;
+    height: 18em;
+    background-color: #F8F4FF;
+    padding-right: 2em;
+    border-radius: 6em;
+    border: 0.7em solid #170063;
 }
 
 /* text */
@@ -185,10 +189,7 @@ main img:not(.saxo-gif) {
 
 .symb-jazz h2 {
     margin-top: 2.5em;
-}
-
-.symb-jazz img{
-    margin-right: 100vw;
+    width: 100vw;
 }
 
 .symb-jazz p {

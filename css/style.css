@@ -153,9 +153,28 @@ section[class^=home] p {
 
 .music {
     width: 25vw;
-    height: auto;
+    height: 12vh;
+    border-radius: 12px;
+    border-style: hidden;
 }
 
+/* text */
+
+.plot div {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.plot .plot-lovely, .plot .plot-miasebtheme {
+    height: 30vh;
+}
+
+.plot p {
+    width: 60vw;
+}
 
 /* ACTORS AND CHARACTERS */
 /* images */
@@ -172,8 +191,6 @@ section[class^=home] p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
-    
 }
 
 .char-miaseb h2 {

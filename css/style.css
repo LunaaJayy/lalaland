@@ -151,6 +151,31 @@ section[class^=home] p {
 /* ACTORS AND CHARACTERS */
 /* images */
 
+.char-miaseb img {
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* text */
+.char-miaseb {
+    height: 45em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+.char-miaseb h2 {
+    text-align: center;
+}
+
+.char-miaseb p {
+    width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* SYMBOLISM */

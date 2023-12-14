@@ -166,14 +166,12 @@ section[class^=home] p {
 }
 
 .damien {
-    display: inline-block;
     float: right;
     width: 25vw;
     
 }
 
 .damien-and-ryan {
-    display: inline-block;
     float: left;
     width: 25vw;
 }

@@ -18,6 +18,7 @@ h1 {
     justify-content: center;
 }
 
+
 nav ul {
     list-style: none;
     display: flex;
@@ -67,6 +68,8 @@ footer {
 footer a:hover {
     text-decoration: underline;
 }
+
+
 
 /* HOMEPAGE */
 /* images */
@@ -148,6 +151,10 @@ section[class^=home] p {
     width: 40vw;
 }
 
+.homepage > h2 {
+    text-align: center;
+}
+
 /* PLOT */
 /* images */
 
@@ -158,7 +165,25 @@ section[class^=home] p {
     border-style: hidden;
 }
 
+.damien {
+    display: inline-block;
+    float: right;
+    width: 25vw;
+    
+}
+
+.damien-and-ryan {
+    display: inline-block;
+    float: left;
+    width: 25vw;
+}
+
 /* text */
+
+.plot h2:nth-of-type(1) {
+    margin-bottom: 0em;
+    margin-left: 1.3em;
+}
 
 .plot div {
     height: 40vh;
@@ -168,39 +193,50 @@ section[class^=home] p {
     justify-content: space-around;
 }
 
+div {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.plot-sun-crowd {
+    margin-top: 0em;
+}
+
 .plot .plot-lovely, .plot .plot-miasebtheme {
     height: 30vh;
 }
 
-.plot p {
+.plot article:nth-of-type(1) p {
     width: 60vw;
 }
 
 /* ACTORS AND CHARACTERS */
 /* images */
 
-.char-miaseb img {
+.char-mia img, .char-seb img {
     width: 20vw;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;  
+    margin: 0 auto;
 }
 
 /* text */
-.char-miaseb {
+.char-and-actor {
     height: 45em;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.char-miaseb h2 {
+.char-mia p, .char-seb p {
+    width: 45vw;
+}
+
+.char-and-actor h2 {
     text-align: center;
 }
 
-.char-miaseb p {
-    width: 45vw;
-    margin-left: auto;
-    margin-right: auto;
+.plot article:nth-of-type(2) p {
+    margin-left: 2em;
 }
 
 
@@ -304,3 +340,5 @@ main img:not(.saxo-gif) {
     padding: 1em;
     border-radius: 1em;
 }
+
+/* SOURCES */

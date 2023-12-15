@@ -168,12 +168,18 @@ section[class^=home] p {
 .damien {
     float: right;
     width: 25vw;
+    background-color: #170063;
+    padding: 1em;
+    border-radius: 1.5em;
     
 }
 
 .damien-and-ryan {
     float: left;
     width: 25vw;
+    background-color: #170063;
+    padding: 1em;
+    border-radius: 1.5em;
 }
 
 /* text */
@@ -189,11 +195,6 @@ section[class^=home] p {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-div {
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 
 .plot-sun-crowd {
@@ -229,7 +230,7 @@ div {
 }
 
 .char-mia p, .char-seb p {
-    width: 45vw;
+    width: 42vw;
 }
 
 .char-and-actor h2 {
@@ -352,6 +353,35 @@ div {
     body {
         color: red;
     }
+
+    /* PLOT */
+    .plot div {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .plot article:nth-of-type(1) p {
+        width: 90vw;
+        margin: 1em 0;
+    }
+
+    .music {
+        width: 40vw;
+    }
+
+    /* CHAR */
+    .char-and-actor {
+        height: fit-content;
+    }
+
+    .char-mia img, .char-seb img {
+        width: 13em;
+    }
+
+    .char-mia p, .char-seb p {
+        width:90vw
+    }
+
     /* SYMBOLISM */
     .symb-shots ul {
         display: flex;

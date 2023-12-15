@@ -215,6 +215,9 @@ div {
     width: 20vw;
     display: block;  
     margin: 0 auto;
+    background-color: #170063;
+    padding: 1em;
+    border-radius: 1.5em;
 }
 
 /* text */
@@ -241,7 +244,7 @@ div {
 /* SYMBOLISM */
 /* images */
 
-main img:not(.saxo-gif) {
+.symbolismpage img:not(.saxo-gif) {
     background-color: #170063;
     padding: 1em;
     border-radius: 1.5em;
@@ -250,6 +253,8 @@ main img:not(.saxo-gif) {
 .symb-shots ul {
     display: flex;
     list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .symb-shots li, .symb-shots ul {
@@ -258,7 +263,7 @@ main img:not(.saxo-gif) {
 }
 
 .symb-shots img{
-    height: 13vw;
+    height: 7em;
 }
 
 .saxo-gif {
@@ -282,7 +287,6 @@ main img:not(.saxo-gif) {
 
 .symb-back img {
     width: 20vw;
-    height: auto;
 }
 
 /* text */
@@ -340,3 +344,39 @@ main img:not(.saxo-gif) {
 }
 
 /* SOURCES */
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 965px ) {
+    body {
+        color: red;
+    }
+    /* SYMBOLISM */
+    .symb-shots ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .symb-jazz p, .symb-back p{
+        width: 100vw;
+    }
+
+    .symb-back img {
+        width: 80vw;
+    }
+
+    .symb-ending p:nth-of-type(2), .symb-ending p:nth-of-type(3){
+        width: 80vw;
+    }
+}
+
+@media (max-width: 680px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav li {
+        margin: 0.5em
+    }
+}

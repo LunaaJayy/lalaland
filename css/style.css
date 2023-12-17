@@ -19,6 +19,7 @@ h1 {
 }
 
 
+
 nav ul {
     list-style: none;
     display: flex;
@@ -466,4 +467,7 @@ section[class^=home] p {
         height: auto;
     }
 
+    .homepage {
+        margin-right: 0em;
+    }
 }

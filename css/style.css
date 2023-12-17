@@ -371,10 +371,6 @@ section[class^=home] p {
 }
 
 @media (max-width: 965px ) {
-    body {
-        color: red;
-    }
-
     /* HOME */
     section[class^=home] {
         flex-direction: column;
